@@ -1,0 +1,42 @@
+html,body{
+    margin: 0;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    text-align: center;
+    color:rgb(158, 0, 0);
+    margin-top: 13vh;
+}
+#form-container{
+    margin: 10vh 35vw 0 35vw;
+    background-color: rgb(192, 192, 192);
+    padding:4vh 1vw 4vh 6vw;
+    border:none;
+    border-radius:16px;
+}
+
+input{
+    width:70%;
+    padding:1vh 1vw 1vh 1vw;
+    border-radius: 20px;
+}
+#row{
+    padding:2vh 0 2vh 0;
+}
+button{
+    padding:1vh 1vw 1vh 1vw;
+    color:#fff;
+    font-size: 18px;
+    background-color: rgb(2, 182, 2);
+    border:none;
+    border-radius:20px;
+}
+button:hover{
+    background-color: rgb(0, 128, 0);
+}
+#error{
+   padding:3vh 0 0 0;
+   color:red;
+   text-align: center;
+}

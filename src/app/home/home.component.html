@@ -1,0 +1,16 @@
+<div *ngIf="!nav">
+    <ul>
+        <li (click)="home()"><a class="active">Home</a></li>
+        <li (click)="view()"><a>View Invoice</a></li>
+        <li (click)="create()"><a>Create Invoice</a></li>
+        <li (click)="update()"><a>Update Invoice</a></li>
+        <li (click)="logout()" class="logout"><a>Logout</a></li>
+    </ul>
+</div>
+<br>
+<br>
+<div id="welcome" *ngIf="!show">
+    <div id="message-container" [innerHTML]="welcome"></div>
+</div>
+<router-outlet></router-outlet>
+
